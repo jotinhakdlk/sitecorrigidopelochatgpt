@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url("fundo.png");
+    background-color: #002d82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Playfair Display', serif;
+}
+
+.imagemfundo {
+    background-image: url("coroacao4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo {
+    font-family: 'Ephesis', cursive;
+    color: #fbfbfc;
+    text-shadow: black 1px -1px, black -1px 1px, black 1px 1px, black -1px -1px;
+    font-size: 40px;
+}
+
+#meio {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% auto;
+    background-color: #FCFBFC;
+    border-radius: 30px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.texto {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.imagemNSG {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imagemNS {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
